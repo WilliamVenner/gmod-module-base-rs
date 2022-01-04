@@ -1,0 +1,11 @@
+[package]
+name = "gmod-module-base-rs"
+authors = ["Your name here! <your@email.address>"]
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = { version = "*", default-features = false, features = ["gmcl"] }
